@@ -14,8 +14,9 @@
 	<name>consumo-cep</name>
 	<description>Consumo utilizando api externa viacep</description>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>11</java.version>
 		<spring-doc.version>1.6.14</spring-doc.version>
+
 	</properties>
 	<dependencies>
 		<dependency>
@@ -45,10 +46,10 @@
 			<artifactId>springdoc-openapi-ui</artifactId>
 			<version>${spring-doc.version}</version>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-openfeign</artifactId>
+			<artifactId>spring-cloud-openfeign-core</artifactId>
+			<version>3.1.3</version>
 		</dependency>
 	</dependencies>
 
