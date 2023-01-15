@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/v1/cep")
-public interface CepAPI {
+public interface ViaCepAPI {
 
     @GetMapping("/{cep}")
     @ResponseStatus(code = HttpStatus.OK)
