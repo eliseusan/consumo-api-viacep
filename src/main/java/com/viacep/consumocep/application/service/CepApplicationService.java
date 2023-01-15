@@ -14,7 +14,7 @@ public class CepApplicationService implements ViaCepService{
     @Override
     public EnderecoDetalhadoResponse buscaCep(String cep) {
         log.info("[start] CepApplicationService - buscaCep ");
-        Endereco endereco = viaCEPClient.
+        Endereco endereco = viaCEPClient.buscaEnderecoPorCep(cep);
         log.info("[finish] CepApplicationService - buscaCep ");
         return new EnderecoDetalhadoResponse(endereco);
     }
