@@ -1,5 +1,6 @@
 package com.viacep.consumocep.domain;
 
+import com.viacep.consumocep.application.api.EnderecoRequest;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
