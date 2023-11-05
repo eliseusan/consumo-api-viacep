@@ -5,7 +5,9 @@ Esta API Rest Full foi desenvolvida em Java 11 utilizando o framework Spring Boo
 
 A API disponibiliza os seguintes endpoints:
 
-### Endpoint: /consultaCep/{cep} (GET)
+### context-path: /consumo-cep/api
+
+### Endpoint: /v1/cep/{cep} (GET)
 Este endpoint é utilizado para consultar as informações de um determinado CEP.
 
 #### Parâmetros:
@@ -14,7 +16,42 @@ Este endpoint é utilizado para consultar as informações de um determinado CEP
 
 #### Exemplo de uso: 
 ```
-/consultaCep/01234000 
+http://localhost:8080/consumo-cep/api/v1/cep/40301110
 ```
 
 Para utilizar a API, basta realizar uma requisição GET para o endpoint /consultaCep/{cep}, informando o CEP desejado no lugar de {cep}. A API retornará as informações correspondentes ao CEP consultado.
+
+# Dependencies
+
+- [Spring Boot]
+
+- [Lombok]
+  
+- [Spring Cloud Starter OpenFeign]
+
+- [Spring Boot Starter Data JPA]
+
+- [H2 Database]
+
+
+## Configuração
+1. Certifique-se de ter o Java 11 ou superior instalado em sua máquina.
+2. Faça o clone deste repositório.
+3. Abra o projeto em sua IDE de preferência.
+4. Realize as configurações necessárias para executar o projeto.
+5. Execute a classe `Application.java` para iniciar o servidor.
+
+## Uso
+Após configurar e executar o projeto, você pode começar a fazer requisições para a API utilizando um cliente HTTP, como o Postman.
+
+## Contribuição
+Contribuições são sempre bem-vindas! Se você quiser contribuir com este projeto, siga as orientações abaixo:
+
+1. Faça um fork deste repositório.
+2. Crie uma branch com a feature ou correção que você deseja implementar.
+3. Envie suas alterações.
+4. Abra uma pull request para revisão.
+
+## Autor
+- Eliseu Divino
+
