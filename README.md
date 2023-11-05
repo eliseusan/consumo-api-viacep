@@ -1,4 +1,4 @@
-# API Rest Full Spring Boot para consulta de CEP de qualquer cidade do Brasil
+# API Java Spring Boot para consulta de CEP de qualquer cidade do Brasil
 
 ## Descrição
 Esta API Rest Full foi desenvolvida em Java 11 utilizando o framework Spring Boot. Ela permite que você consulte o CEP de qualquer cidade do Brasil, consumindo o serviço de API externa ViaCEP.
