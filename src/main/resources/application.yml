@@ -1,3 +1,7 @@
 server:
   servlet:
     context-path: /consumo-cep/api
+
+springdoc:
+  swagger-ui:
+    path: /public/swagger
