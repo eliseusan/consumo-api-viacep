@@ -3,11 +3,11 @@
 ## Descrição
 Esta API Rest Full foi desenvolvida em Java 11 utilizando o framework Spring Boot. Ela permite que você consulte o CEP de qualquer cidade do Brasil, consumindo o serviço de API externa ViaCEP.
 ## Build da Api
-1- Inicie o Docker
-### Utilize esse comando no bash dentro do diretorio da aplicação
-  "docker build -t api_consumo_viacep ." (criar a imagem)
-  "docker images" (para ver o id da imagem)
-  "docker run -p 8080:8080 647c71ff72cf" (executar)
+ Inicie o Docker
+### Utilize esses comando no bash dentro do diretorio da aplicação
+  1-"docker build -t api_consumo_viacep ." (criar a imagem)
+  2-"docker images" (para ver o idImagem)
+  3-"docker run -p 8080:8080 (idImagem)" (executar)
   
 A API disponibiliza os seguintes endpoints:
 
